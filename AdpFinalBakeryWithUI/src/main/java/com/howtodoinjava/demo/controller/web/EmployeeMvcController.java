@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.web;
+package com.howtodoinjava.demo.controller.web;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.howtodoinjava.demo.exception.RecordNotFoundException;
-import com.howtodoinjava.demo.model.EmployeeEntity;
+import com.howtodoinjava.demo.domain.model.EmployeeEntity;
 import com.howtodoinjava.demo.service.EmployeeService;
 
 @Controller

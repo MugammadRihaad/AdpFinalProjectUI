@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.howtodoinjava.demo.exception.RecordNotFoundException;
-import com.howtodoinjava.demo.model.EmployeeEntity;
+import com.howtodoinjava.demo.domain.model.EmployeeEntity;
 import com.howtodoinjava.demo.repository.EmployeeRepository;
 
 @Service
